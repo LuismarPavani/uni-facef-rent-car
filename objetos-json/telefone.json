@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "idContato": 1,
+  "ddd": "16",
+  "numero": "33332222",
+  "tipo": "comercial",
+  "ativo":true,
+  "principal": true
+}

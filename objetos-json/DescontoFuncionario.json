@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "descricao": "Desconto Outubro",
+  "percentual": "30",
+  "dataVigenciaInicial": "2019-10-01",
+  "dataVigenciaFinal": "2019-10-31"
+}

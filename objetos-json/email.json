@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "idContato": 1,
+  "email": "contato@locadora.com.br",
+  "tipo": "comercial",
+  "ativo":true,
+  "principal": true
+}

@@ -1,0 +1,32 @@
+{
+	"id": 2,
+	"telefones":[
+		{
+		  "id": 1,
+		  "ddd": "16",
+		  "numero": "22222222",
+		  "tipo": "fax",
+		  "ativo":true,
+		  "principal": false
+		},
+		{
+		  "id": 1,
+		  "ddd": "16",
+		  "numero": "333339999",
+		  "tipo": "comercial",
+		  "ativo":true,
+		  "principal": true
+		}
+	],
+	"emails":[
+		{
+		  "id": 1,
+		  "email": "pj@gmail.com",
+		  "tipo": "pessoal",
+		  "ativo":true
+		}
+	],
+	"recebePushNotificatios": false,
+	"recebeSMS": true,
+	"naoPerturbe": false
+}

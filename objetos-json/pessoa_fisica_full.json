@@ -1,0 +1,53 @@
+{
+	"id": 1,
+	"nome": "João da Silva",
+	"cpf": "22222222222",
+	"rg": 234567891,
+	"habilitacao": 34872677348,
+	"habilitacaotipo": ["A", "B"],
+	"dataNascimento": "1987-03-12",
+	"localizacao": {
+	  "id": 1,
+	  "logradouro": "Monsenhor Rosa",
+	  "numero": 630,
+	  "complemento": "",
+	  "bairro": "centro",
+	  "cep": "14400100",
+	  "cidade": "Franca",
+	  "estado": "SP",
+	  "tipoLocalizacao": "residencial",
+	  "latitude": "-20.5418",
+	  "longitude": "-47.4197"
+	},
+	"contato": {
+		"id": 2,
+		"telefones":[
+			{
+			  "id": 1,
+			  "ddd": "16",
+			  "numero": "999999999",
+			  "tipo": "celular",
+			  "ativo":true
+			},
+			{
+			  "id": 1,
+			  "ddd": "16",
+			  "numero": "333339999",
+			  "tipo": "residencial",
+			  "ativo":true
+			}
+		],
+		"emails":[
+			{
+			  "id": 1,
+			  "email": "pessoa@gmail.com",
+			  "tipo": "pessoal",
+			  "ativo":true
+			}
+		],
+		"recebePushNotificatios": true,
+		"recebeSMS": true,
+		"naoPerturbe": false
+	},
+	"ativo": true
+}

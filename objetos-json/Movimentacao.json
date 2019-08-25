@@ -1,0 +1,206 @@
+{
+  "id": "1",
+  "dataHora": "12/09/2019 14:30",
+  "valorPolitica": "350.00",
+  "valorDescontoCliente": "35",
+  "valorDescontoFuncionario": "0",
+  "valorOpcionais": "100.00",
+  "valorTotal": "292.5",
+  "status": "Encerrada",
+  "devolucao": {
+    "id": "1",
+    "locacao":{
+      "id": "1",
+      "locacao": 
+      {
+        "id":"",
+        "filialLocacao":{
+          "id": 1,
+          "cnpj": "11111111111111",
+          "descricao": "loja 1"
+        },
+        "dataLocacao":"2019-10-15",
+        "cliente":{
+          "id": 1,
+          "pessoaFisica": {
+                "id": 1,
+                "nome": "Joao da Silva",
+                "cpf": "22222222222",
+                "rg": 234567891,
+                "habilitacao": 34872677348,
+                "habilitacaotipo": ["A", "B"],
+                "dataNascimento": "1987-03-12",	
+                "telefone":{
+                    "id": 1,
+                    "ddd": "16",
+                    "numero": "999999999",
+                    "tipo": "celular"
+                },		
+                "email":{
+                    "id": 1,
+                    "email": "pessoa@gmail.com",
+                    "tipo": "pessoal"
+                },
+                "ativo": true
+            },
+          "pessoaJuridica": "",
+          "dataCadastro": "2018-07-25",
+          "ehFuncionario": false,
+          "filialCadastro": {
+                "id": 1,
+                "cnpj": "11111111111111",
+                "descricao": "loja 1"
+              }
+        }
+      },
+        "veiculo":{
+        "id": 1,
+        "placa": "PPP-1111",
+        "modelo":{
+          "id": 1,
+          "nome": "Ká",
+          "sigla": "class",
+          "paisOrigem": "Brasil",
+          "classe":{
+            "id": 2,
+            "descricao": "Hatch"
+          },
+          "marca":{
+            "id":1,
+            "nome": "Ford"
+          }
+        },
+        "kilometragem": 12352,
+        "dataAquisicao": "2019-08-01",
+        "filialAquisicao":{
+          "id": 1,
+          "cnpj": "11111111111111",
+          "descricao": "loja 1"
+        },
+        "filialAtual":{
+          "id": 1,
+          "cnpj": "11111111111111",
+          "descricao": "loja 1"
+        },
+        "status": "Limpesa",
+        "tipoCombustivel": "alcool/gasolina",
+        "opcionais":[
+          {
+            "id": 1,
+            "descricao": "ar condicionado",
+            "valorAcrescido": 10.00,
+            "dataInstalacao":"2019-08-01",
+            "status": "funcional"
+          }
+        ],
+        "dataUltimaManutencao": "2019-08-01",
+        "dataProximaManutencao": "2019-11-01",
+        "categoriasHabilitadas":["B","C","D","E"]
+      },
+      "valorPrevisto":"190.00",
+      "volumeCombustivel":"1/4",
+      "dataDevolucao": "21/11/2019",
+      "cliente": {
+        "id": 1,
+        "pessoaFisica": {
+              "id": 1,
+              "nome": "Joao da Silva",
+              "cpf": "22222222222",
+              "rg": 234567891,
+              "habilitacao": 34872677348,
+              "habilitacaotipo": ["A", "B"],
+              "dataNascimento": "1987-03-12",	
+              "telefone":{
+                  "id": 1,
+                  "ddd": "16",
+                  "numero": "999999999",
+                  "tipo": "celular"
+              },		
+              "email":{
+                  "id": 1,
+                  "email": "pessoa@gmail.com",
+                  "tipo": "pessoal"
+              },
+              "ativo": true
+          },
+        "pessoaJuridica": "",
+        "dataCadastro": "2018-07-25",
+        "ehFuncionario": false,
+        "filialCadastro": {
+              "id": 1,
+              "cnpj": "11111111111111",
+              "descricao": "loja 1"
+            }
+      },
+      "funcionario": {
+        "id": 1,
+          "carteiraTrabalho": "12354-9",
+        "pessoaFisica":{
+          "id": 1,
+          "nome": "Joao da Silva",
+          "cpf": "22222222222",
+          "rg": 234567891,
+          "habilitacao": 34872677348,
+          "habilitacaotipo": ["A", "B"],
+          "dataNascimento": "1987-03-12",	
+          "telefone":{
+            "id": 1,
+            "ddd": "16",
+            "numero": "999999999",
+            "tipo": "celular"
+          },		
+          "email":{
+            "id": 1,
+            "email": "pessoa@gmail.com",
+            "tipo": "pessoal"
+        },
+        "ativo": true
+        },
+        "filial": {
+          "id": 1,
+          "cnpj": "11111111111111",
+          "descricao": "loja 1"
+        }
+      },
+      "observacoes": "volante estava desalinhado"
+    },
+    "filialDevolucao": {
+      "id": 1,
+      "cnpj": "11111111111111",
+      "descricao": "loja 1"
+    },
+    "dataDevolucao": "21/11/2019",
+    "funcionario": {
+      "id": 1,
+        "carteiraTrabalho": "12354-9",
+      "pessoaFisica":{
+        "id": 1,
+        "nome": "Joao da Silva",
+        "cpf": "22222222222",
+        "rg": 234567891,
+        "habilitacao": 34872677348,
+        "habilitacaotipo": ["A", "B"],
+        "dataNascimento": "1987-03-12",	
+        "telefone":{
+          "id": 1,
+          "ddd": "16",
+          "numero": "999999999",
+          "tipo": "celular"
+        },		
+        "email":{
+          "id": 1,
+          "email": "pessoa@gmail.com",
+          "tipo": "pessoal"
+      },
+      "ativo": true
+      },
+      "filial": {
+        "id": 1,
+        "cnpj": "11111111111111",
+        "descricao": "loja 1"
+      }
+    },
+    "volumeCombustivel": "10",
+    "observacoes": "volante estava desalinhado"
+  }
+}

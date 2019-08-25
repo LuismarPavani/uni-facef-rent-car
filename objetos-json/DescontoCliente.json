@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "descricao": "Desconto Especial",
+  "percentual": "35",
+  "dataVigenciaInicial": "2019-09-01",
+  "dataVigenciaFinal": "2019-09-01",
+  "classe": {
+    "id": "1",
+    "descricao": "sedan"
+  }
+}

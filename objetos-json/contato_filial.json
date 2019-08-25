@@ -1,0 +1,35 @@
+{
+	"id": 1,
+	"telefones":[
+		{
+		  "id": 1,
+		  "ddd": "16",
+		  "numero": "33332222",
+		  "tipo": "comercial",
+		  "ativo":true
+		}
+	],
+	"emails":[
+		{
+		  "id": 1,
+		  "email": "contato@locadora.com.br",
+		  "tipo": "comercial",
+		  "ativo":true
+		},
+		{
+		  "id": 2,
+		  "email": "reservas@locadora.com.br",
+		  "tipo": "comercial",
+		  "ativo":true
+		},
+		{
+		  "id": 3,
+		  "email": "sac@locadora.com.br",
+		  "tipo": "comercial",
+		  "ativo":true
+		}
+	],
+	"recebePushNotificatios": false,
+	"recebeSMS": false,
+	"naoPerturbe": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "nome": "Ká",
+  "sigla": "class",
+  "paisOrigem": "Brasil",
+  "classe":{
+    "id": 2,
+    "descricao": "Hatch"
+  },
+  "marca":{
+    "id":1,
+    "nome": "Ford"
+  }
+}

@@ -1,0 +1,115 @@
+{
+	"id": 1,
+	"pessoaFisica": {
+		"id": 1,
+		"nome": "João da Silva",
+		"cpf": "22222222222",
+		"rg": 234567891,
+		"habilitacao": 34872677348,
+		"habilitacaotipo": ["A", "B"],
+		"dataNascimento": "1987-03-12",
+		"localizacao": {
+		  "id": 1,
+		  "logradouro": "Monsenhor Rosa",
+		  "numero": 630,
+		  "complemento": "",
+		  "bairro": "centro",
+		  "cep": "14400100",
+		  "cidade": "Franca",
+		  "estado": "SP",
+		  "tipoLocalizacao": "residencial",
+		  "latitude": "-20.5418",
+		  "longitude": "-47.4197"
+		},
+		"contato": {
+			"id": 2,
+			"telefones":[
+				{
+				  "id": 1,
+				  "ddd": "16",
+				  "numero": "999999999",
+				  "tipo": "celular",
+				  "ativo":true
+				},
+				{
+				  "id": 1,
+				  "ddd": "16",
+				  "numero": "333339999",
+				  "tipo": "residencial",
+				  "ativo":true
+				}
+			],
+			"emails":[
+				{
+				  "id": 1,
+				  "email": "pessoa@gmail.com",
+				  "tipo": "pessoal",
+				  "ativo":true
+				}
+			],
+			"recebePushNotificatios": true,
+			"recebeSMS": true,
+			"naoPerturbe": false
+		},
+		"ativo": true
+	},
+	"pessoaJuridica": "",
+	"dataCadastro": "2018-07-25",
+	"ehFuncionario": false,
+	"filialCadastro": {
+	  "id": 1,
+	  "cnpj": "11111111111111",
+	  "descricao": "loja 1",
+	  "localizacao":{
+		  "id": 1,
+		  "logradouro": "Av. Brasil",
+		  "numero": 1500,
+		  "complemento": "",
+		  "bairro": "centro",
+		  "cep": "14400100",
+		  "cidade": "Franca",
+		  "estado": "SP",
+		  "tipoLocalizacao": "comercial",
+		  "latitude": "-20.5418",
+		  "longitude": "-47.4197"
+	  },
+	  "contato":{
+			"id": 1,
+			"telefones":[
+				{
+				  "id": 1,
+				  "ddd": "16",
+				  "numero": "33332222",
+				  "tipo": "comercial",
+				  "ativo":true
+				}
+			],
+			"emails":[
+				{
+				  "id": 1,
+				  "email": "contato@locadora.com.br",
+				  "tipo": "comercial",
+				  "ativo":true
+				},
+				{
+				  "id": 2,
+				  "email": "reservas@locadora.com.br",
+				  "tipo": "comercial",
+				  "ativo":true
+				},
+				{
+				  "id": 3,
+				  "email": "sac@locadora.com.br",
+				  "tipo": "comercial",
+				  "ativo":true
+				}
+			],
+			"recebePushNotificatios": false,
+			"recebeSMS": false,
+			"naoPerturbe": false
+		},
+		"abreAs": "08:00",
+		"fechaAs": "18:00",
+		"diasFuncionamento": ["segunda", "terca", "quarta", "quinta", "sexta", "sabado"]
+	}
+}

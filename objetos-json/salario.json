@@ -1,0 +1,6 @@
+"salario": {
+	"id": 1, 
+	"salarioBase": "8000.00", 
+	"periculosidade": false, 
+	"adicionalNoturno": false, 
+}

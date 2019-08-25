@@ -1,0 +1,30 @@
+{
+	"id": 2,
+	"telefones":[
+		{
+		  "id": 1,
+		  "ddd": "16",
+		  "numero": "999999999",
+		  "tipo": "celular",
+		  "ativo":true
+		},
+		{
+		  "id": 1,
+		  "ddd": "16",
+		  "numero": "333339999",
+		  "tipo": "residencial",
+		  "ativo":true
+		}
+	],
+	"emails":[
+		{
+		  "id": 1,
+		  "email": "pessoa@gmail.com",
+		  "tipo": "pessoal",
+		  "ativo":true
+		}
+	],
+	"recebePushNotificatios": true,
+	"recebeSMS": true,
+	"naoPerturbe": false
+}

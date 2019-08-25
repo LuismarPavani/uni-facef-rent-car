@@ -1,0 +1,32 @@
+{
+	"id": 1,
+	"pessoaFisica": {
+        "id": 1,
+        "nome": "Joao da Silva",
+        "cpf": "22222222222",
+        "rg": 234567891,
+        "habilitacao": 34872677348,
+        "habilitacaotipo": ["A", "B"],
+        "dataNascimento": "1987-03-12",	
+        "telefone":{
+            "id": 1,
+            "ddd": "16",
+            "numero": "999999999",
+            "tipo": "celular"
+        },		
+        "email":{
+            "id": 1,
+            "email": "pessoa@gmail.com",
+            "tipo": "pessoal"
+        },
+        "ativo": true
+    },
+	"pessoaJuridica": "",
+	"dataCadastro": "2018-07-25",
+	"ehFuncionario": false,
+	"filialCadastro": {
+        "id": 1,
+        "cnpj": "11111111111111",
+        "descricao": "loja 1",
+      }
+}

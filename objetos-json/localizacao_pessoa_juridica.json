@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "logradouro": "Av. Presidente Vargas",
+  "numero": 100,
+  "complemento": "",
+  "bairro": "centro",
+  "cep": "14400100",
+  "cidade": "Franca",
+  "estado": "SP",
+  "tipoLocalizacao": "comercial",
+  "latitude": "-20.5418",
+  "longitude": "-47.4197"
+}
