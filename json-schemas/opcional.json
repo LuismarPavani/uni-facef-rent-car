@@ -1,0 +1,72 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://rentcar.com/v1/opcional.json",
+    "type": "object",
+    "title": "opcional",
+    "description": "Schema para o objeto opcional de veiculo.",
+    "required": [
+      "id",
+      "descricao",
+      "valorAcrescido",
+      "dataInstalacao",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "$id": "#/properties/id",
+        "type": "integer",
+        "title": "O id do opcional",
+        "description": "Identificador único.",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "descricao": {
+        "$id": "#/properties/descricao",
+        "type": "string",
+        "title": "A descrição do opcional",
+        "description": "Descreve o opcional.",
+        "minLength": 3,
+        "maxLength": 80,
+        "examples": [
+          "ar condicionado"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "valorAcrescido": {
+        "$id": "#/properties/valorAcrescido",
+        "type": "number",
+        "title": "O valor a ser acrescido.",
+        "description": "O valor a ser acrescido para locação de um veículo que possua este opcional.",
+        "default": 0,
+        "examples": [
+          10
+        ]
+      },
+      "dataInstalacao": {
+        "$id": "#/properties/dataInstalacao",
+        "type": "string",
+        "title": "Data de instalacao do opcional.",
+        "description": "Data em que o opcional foi disponibilizado no veículo.",
+        "examples": [
+          "2019-08-01"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "status": {
+        "$id": "#/properties/status",
+        "type": "string",
+        "title": "Condições do opcional.",
+        "description": "Condições de conseevação e operação do opcional.",
+        "default": "funcional",
+        "minLength": 2,
+        "maxLength": 20,
+        "examples": [
+          "funcional"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
