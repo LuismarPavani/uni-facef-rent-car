@@ -1,0 +1,36 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://rentcar.com/v1/marca.json",
+  "type": "object",
+  "title": "marca",
+  "description": "Schema para o objeto que vincula os veículos a sua marca.",
+  "required": [
+    "id",
+    "nome"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "O id da marca.",
+      "description": "Identificador único",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "O nome da marca.",
+      "description": "An explanation about the purpose of this instance.",
+      "minLength": 3,
+      "maxLength": 20,
+      "examples": [
+        "Ford"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
