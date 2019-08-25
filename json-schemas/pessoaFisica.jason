@@ -1,0 +1,169 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "id",
+    "nome",
+    "cpf",
+    "rg",
+    "habilitacao",
+    "habilitacaotipo",
+    "dataNascimento",
+    "telefone",
+    "email",
+    "ativo"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "O Id da Pessoa Física",
+      "default": 0
+    },
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "O Nome da Pessoa Física",
+      "description": "Informar o nome completo da Pessoa",
+      "pattern": "^(.*)$"
+    },
+    "cpf": {
+      "$id": "#/properties/cpf",
+      "type": "string",
+      "title": "O CPF da Pessoa",
+      "description": "Informar o CPF válido da Pessoa",
+      "pattern": "^(.*)$"
+    },
+    "rg": {
+      "$id": "#/properties/rg",
+      "type": "integer",
+      "title": "O RG da Pessoa",
+      "description": "Informar o RG válido da Pessoa",
+      "minimum": 9.0,
+      "maximum": 9.0
+    },
+    "habilitacao": {
+      "$id": "#/properties/habilitacao",
+      "type": "integer",
+      "title": "A Habilitação da Pessoa",
+      "description": "Informar o Número da Habilitação da Pessoa",
+      "minimum": 11.0,
+      "maximum": 11.0
+    },
+    "habilitacaotipo": {
+      "$id": "#/properties/habilitacaotipo",
+      "type": "array",
+      "title": "O Tipo de Habilitação da Pessoa",
+      "description": "Informar o(s) Tipo(s) de Habilitação que a Pessoa Possui",
+      "items": {
+        "$id": "#/properties/habilitacaotipo/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "A",
+          "B"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "dataNascimento": {
+      "$id": "#/properties/dataNascimento",
+      "type": "string",
+      "title": "A Data de Nascimento da Pessoa",
+      "description": "Informar a Data de Nascomento da Pessoa",
+      "pattern": "^(.*)$"
+    },
+    "telefone": {
+      "$id": "#/properties/telefone",
+      "type": "object",
+      "title": "O Número do Telefone da Pessoa",
+      "description": "Informar o(s) Número(s) de Telefone(s) que a Pessoa possui",
+      "required": [
+        "id",
+        "ddd",
+        "numero",
+        "tipo"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/telefone/properties/id",
+          "type": "integer",
+          "title": "O Id da Pessoa",
+          "description": "Informar o ID da Pessoa pertencento do Telefone",
+          "default": 0
+        },
+        "ddd": {
+          "$id": "#/properties/telefone/properties/ddd",
+          "type": "string",
+          "title": "O DDD do Telefone",
+          "description": "Informar o DDD Pertencente do Telefone",
+          "pattern": "^(.*)$"
+        },
+        "numero": {
+          "$id": "#/properties/telefone/properties/numero",
+          "type": "string",
+          "title": "O Número do Telefone",
+          "description": "O Número do Telefone",
+          "pattern": "^(.*)$"
+        },
+        "tipo": {
+          "$id": "#/properties/telefone/properties/tipo",
+          "type": "string",
+          "title": "O Tipo de Telefone",
+          "description": "Informar o Tipo de Telefone",
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "object",
+      "title": "O e-mail da Pessoa",
+      "description": "Informar o(s) e-mail(s) da Pessoa",
+      "required": [
+        "id",
+        "email",
+        "tipo"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/email/properties/id",
+          "type": "integer",
+          "title": "O Id do e-mail",
+          "description": "O ID do e-mail",
+          "default": 0
+        },
+        "email": {
+          "$id": "#/properties/email/properties/email",
+          "type": "string",
+          "title": "O e-mail da Pessoa",
+          "description": "Informar o e-mail válido da Pessoa",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "tipo": {
+          "$id": "#/properties/email/properties/tipo",
+          "type": "string",
+          "title": "o Tipo de e-mail",
+          "description": "Informar o Tipo de e-mail",
+          "default": "",
+          "examples": [
+            "pessoal"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "ativo": {
+      "$id": "#/properties/ativo",
+      "type": "boolean",
+      "title": "O e-mail Ativo",
+      "description": "Informar se o e-mail está ativo",
+      "default": true
+    }
+  }
+}
