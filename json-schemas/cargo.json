@@ -1,0 +1,48 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://rentcar.com/v1/cargo.json",
+  "type": "object",
+  "title": "cargo",
+  "description": "An explanation about the purpose of this instance.",
+  "required": [
+    "id",
+    "descricao",
+    "salarioBase"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "O id do cargo.",
+      "description": "Identificador único.",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "descricao": {
+      "$id": "#/properties/descricao",
+      "type": "string",
+      "title": "Descrição do cargo.",
+      "description": "Descrição do cargo ocupado por funcionários.",
+      "minLength": 3,
+      "maxLength": 20,
+      "examples": [
+        "gerente"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "salarioBase": {
+      "$id": "#/properties/salarioBase",
+      "type": "number",
+      "title": "Salario base para o cargo.",
+      "description": "O Salario mais baixo pago para o cargo.",
+      "default": 0.00,
+      "examples": [
+        8000.00
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
